@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@400;500;600;700&display=swap");
+
+/* Global Styles Starts */
+body {
+  font-family: "AR One Sans", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1140px;
+  margin: auto;
+}
+/* Global Styles Ends  */
+
+/* Header Style Start  */
+header {
+  padding: 100px 0;
+  background-image: url(https://images.unsplash.com/photo-1693237476029-f8469bb756a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDM5fENEd3V3WEpBYkV3fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=1000&q=60);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  font-size: 4vw;
+}
+
+/* Header Style End  */
+
+/* Word Counter Style Start  */
+.warning1,
+.warning2 {
+  background-color: rgba(255, 92, 92, 0.653);
+  color: rgb(255, 224, 224);
+  text-align: center;
+  padding: 30px 0;
+  margin-top: 30px;
+  font-size: 30px;
+  border-radius: 10px;
+  display: none;
+}
+
+.word-counter-wrapper {
+  display: flex;
+  height: 500px;
+  margin-top: 2rem;
+  background-color: #264653;
+  color: white;
+  border: 2px solid rgb(171, 171, 171);
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.word-counter-textarea {
+  width: 60%;
+}
+
+.statistics {
+  width: 40%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  text-align: center;
+}
+.stats {
+  display: grid;
+  place-content: center;
+}
+
+.stats-number {
+  font-size: 30px;
+}
+
+.stats-heading {
+  font-size: 30px;
+  text-transform: uppercase;
+  opacity: 0.8;
+}
+/* Word Counter Style End  */
